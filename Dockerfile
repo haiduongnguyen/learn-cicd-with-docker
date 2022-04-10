@@ -9,5 +9,7 @@ RUN pip3 install -r requirements.txt
 
 COPY . .
 RUN echo "Hello CICD"
+RUN echo "Really???"
+RUN echo "KKKK Success"
 CMD [ "python3", "-m" , "flask", "run", "--host=0.0.0.0"]
 
